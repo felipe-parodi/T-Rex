@@ -19,6 +19,19 @@ Turn on the music if possible 🎧
 <!-- Add a video here -->
 [![Video Name](assets/trex2/video_cover.jpg)](https://github.com/Mountchicken/Union14M/assets/65173622/60be19f5-88e4-478e-b1a3-af62b8d6d177)
 
+
+## Setup
+Install the API package and acquire the API token from the email.
+```bash
+git clone https://github.com/IDEA-Research/T-Rex.git
+cd T-Rex
+conda create -n trex python=3.9 -y
+conda activate trex
+pip install dds-cloudapi-sdk==0.1.1
+conda install pytorch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -v -e .
+```
+
 # News 📰
 - **2024-03-27**: Online Gradio demo hosted at [https://huggingface.co/spaces/Mountchicken/T-Rex2](https://huggingface.co/spaces/Mountchicken/T-Rex2)
 - **2024-03-26**: New Gradio demo available🤗! Get our API but don't know how to use it? We are now providing a local Gradio demo that provides GUI interface to support your usage. Check here: [Gradio APP](#4-local-gradio-demo-with-api🎨)
@@ -69,18 +82,6 @@ We are now opening online demo for T-Rex2. [Check our demo here](https://deepdat
 # 3. API Usage Examples📚
 We are now opening free API access to T-Rex2. For educators, students, and researchers, we offer an API with extensive usage times to support your educational and research endeavors. You can get API at here [request API](https://deepdataspace.com/request_api).
 - [Full API documentation can be found here](https://cloudapi-sdk.deepdataspace.com/dds_cloudapi_sdk/tasks/trex_interactive.html).
-
-
-## Setup
-Install the API package and acquire the API token from the email.
-```bash
-git clone https://github.com/IDEA-Research/T-Rex.git
-cd T-Rex
-pip install dds-cloudapi-sdk==0.1.1
-pip install -v -e .
-```
-
-
 
 ## Interactive Visual Prompt API
 - In interactive visual prompt workflow, users can provide visual prompts in boxes or points format on a given image to specify the object to be detected. 
