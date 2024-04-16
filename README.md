@@ -31,6 +31,9 @@ pip install dds-cloudapi-sdk==0.1.1
 conda install pytorch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -v -e .
 conda install chardet
+pip install gradio==4.22.0
+pip install gradio-image-prompter
+```
 ```
 
 # News 📰
@@ -128,16 +131,6 @@ With the visual prompt embeddings generated from the previous API. You can use i
 <div align=center>
   <img src="assets/trex2/gradio.jpg" width=500>
 </div>
-
-## 4.1. Setup
-- Install T-Rex2 API if you haven't done so
-```bash
-- install gradio and other dependencies
-```bash
-# install gradio and other dependencies
-pip install gradio==4.22.0
-pip install gradio-image-prompter
-```
 
 ## 4.2. Run the Gradio Demo
 ```bash
