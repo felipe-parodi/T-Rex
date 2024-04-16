@@ -34,7 +34,6 @@ conda install chardet
 pip install gradio==4.22.0
 pip install gradio-image-prompter
 ```
-```
 
 # News 📰
 - **2024-03-27**: Online Gradio demo hosted at [https://huggingface.co/spaces/Mountchicken/T-Rex2](https://huggingface.co/spaces/Mountchicken/T-Rex2)
