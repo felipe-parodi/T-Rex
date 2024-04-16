@@ -30,6 +30,7 @@ conda activate trex
 pip install dds-cloudapi-sdk==0.1.1
 conda install pytorch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -v -e .
+conda install chardet
 ```
 
 # News 📰
